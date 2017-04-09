@@ -44,8 +44,6 @@ else
     TRAEFIK_ENTRYPOINTS='"http"'
 fi
 
-
-
 TRAEFIK_RANCHER_OPTS="\
 [rancher]
 domain = \"${TRAEFIK_RANCHER_DOMAIN}\"
