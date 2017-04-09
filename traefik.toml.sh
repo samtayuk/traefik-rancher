@@ -56,7 +56,6 @@ AccessKey = \"${CATTLE_ACCESS_KEY}\"
 SecretKey = \"${CATTLE_SERCET_KEY}\"
 
 "
-fi
 
 TRAEFIK_ACME_CFG=""
 if [ "X${TRAEFIK_HTTPS_ENABLE}" == "Xtrue" ] || [ "X${TRAEFIK_HTTPS_ENABLE}" == "Xonly" ] && [ "X${TRAEFIK_ACME_ENABLE}" == "Xtrue" ]; then
