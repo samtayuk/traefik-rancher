@@ -3,7 +3,7 @@ FROM alpine:3.5
 # Set environment
 ENV SERVICE_NAME=traefik \
     SERVICE_HOME=/app/traefik \
-    SERVICE_VERSION=v1.3.0-rc1 \
+    SERVICE_VERSION=v1.2.3 \
     SERVICE_URL=https://github.com/containous/traefik/releases/download
 ENV SERVICE_RELEASE=${SERVICE_URL}/${SERVICE_VERSION}/traefik_linux-amd64 \
     PATH=${PATH}:${SERVICE_HOME}/bin
