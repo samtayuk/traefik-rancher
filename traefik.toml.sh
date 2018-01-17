@@ -66,7 +66,7 @@ onDemand = ${TRAEFIK_ACME_ONDEMAND}
 OnHostRule = ${TRAEFIK_ACME_ONHOSTRULE}
 entryPoint = \"https\"
 [acme.httpChallenge]
-entryPoint = "http"
+entryPoint = \"http\"
 
 "
 
