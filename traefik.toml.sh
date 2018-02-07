@@ -48,10 +48,7 @@ TRAEFIK_RANCHER_OPTS="\
 [rancher]
 domain = \"${TRAEFIK_RANCHER_DOMAIN}\"
 Watch = true
-
-Endpoint = \"${CATTLE_URL}\"
-AccessKey = \"${CATTLE_ACCESS_KEY}\"
-SecretKey = \"${CATTLE_SERCET_KEY}\"
+enableServiceHealthFilter = true
 
 "
 
